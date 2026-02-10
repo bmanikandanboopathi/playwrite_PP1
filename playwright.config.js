@@ -11,7 +11,10 @@ const config =({
     timeout : 40 *1000,
   },
   use: {
-    browserName : 'chromium'
+    // browserName : 'chromium, firefix, webkit -safari'
+    browserName : 'chromium',
+    //With and Without Headless using the Configuration file 
+    //headless : true
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
   
   },
